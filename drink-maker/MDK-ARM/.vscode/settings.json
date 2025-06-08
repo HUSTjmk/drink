@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "bsp_lcd.h": "c",
+        "stm32f4xx_hal_tim.h": "c"
+    }
+}
