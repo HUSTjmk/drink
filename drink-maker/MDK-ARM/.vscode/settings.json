@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "bsp_lcd.h": "c",
-        "fsmc.h": "c",
-        "stm32f4xx.h": "c"
-    }
-}
