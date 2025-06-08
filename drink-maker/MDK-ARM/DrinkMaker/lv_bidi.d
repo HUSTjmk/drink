@@ -1,0 +1,17 @@
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_bidi.c
+drinkmaker\lv_bidi.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_bidi.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_internal.h
+drinkmaker\lv_bidi.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_kconfig.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+drinkmaker\lv_bidi.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_txt.h
+drinkmaker\lv_bidi.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_area.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../font/lv_font.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../font/lv_symbol_def.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_printf.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_types.h
+drinkmaker\lv_bidi.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../misc/lv_mem.h
+drinkmaker\lv_bidi.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

@@ -11,7 +11,7 @@ uint16_t LCD_Y_LENGTH = NT35510_LESS_PIXEL;
 //参数可选值为0-7
 //调用NT35510_GramScan函数设置方向时会自动更改
 //LCD刚初始化完成时会使用本默认值
-LCD_Scan_Mode lcd_scan_mode = LCD_Scan_Mode_6;
+LCD_Scan_Mode lcd_scan_mode = LCD_Scan_Mode_3;
 
 
 // static sFONT *LCD_Currentfonts = &Font16x32;  //英文字体
@@ -1177,7 +1177,7 @@ static void NT35510_REG_Config (void)
  * @param  无
  * @retval 无
  */
-void NT35510_Init (void)
+void LCD_Init (void)
 {
 	NT35510_BackLed_Control (LCD_BackLed_Enable);      //点亮LCD背光灯
 	NT35510_Rst ();
@@ -1217,13 +1217,13 @@ void NT35510_BackLed_Control(LCD_BackLed_Cmd cmd)
  */
 void NT35510_Rst(void)
 {				 	 
-    HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_SET);		
+  HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_SET);		
 	NT35510_Delay (0xAFF); 	 
 	//HAL_Delay(1);
-    HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_RESET);	
+  HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_RESET);	
 	NT35510_Delay (0xAFF); 						   
 	 	 
-    HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_SET);	
+  HAL_GPIO_WritePin(LCD_RST_GPIO_Port, LCD_RST_Pin, GPIO_PIN_SET);	
 	NT35510_Delay (0xAFF); 	 	
 	
 }
@@ -1894,5 +1894,30 @@ void NT35510_DrawCircle (uint16_t usX_Center, uint16_t usY_Center, uint16_t usRa
 // /*********************end of file*************************/
 
 
+void LCD_Color_Fill(uint16_t usX1, uint16_t usY1, uint16_t usX2, uint16_t usY2, uint16_t color)
+{
+  static uint32_t i;
+  NT35510_Write_Cmd (CMD_SetCoordinateX); 				 /* 设置X坐标 */
+	NT35510_Write_Data (usX1 >> 8);	 /* 先高8位，然后低8位 */
+	NT35510_Write_Cmd (CMD_SetCoordinateX + 1); 
+	NT35510_Write_Data (usX1 & 0xff);	 /* 设置起始点和结束点*/
+	NT35510_Write_Cmd (CMD_SetCoordinateX + 2);
+	NT35510_Write_Data (usX2 >> 8);
+	NT35510_Write_Cmd (CMD_SetCoordinateX + 3);
+	NT35510_Write_Data (usX2 & 0xff);
 
+	NT35510_Write_Cmd (CMD_SetCoordinateY); 			     /* 设置Y坐标*/
+	NT35510_Write_Data (usY1 >> 8);
+	NT35510_Write_Cmd (CMD_SetCoordinateY + 1);
+	NT35510_Write_Data (usY1 & 0xff);
+	NT35510_Write_Cmd (CMD_SetCoordinateY + 2);
+	NT35510_Write_Data (usY2 >> 8);
+	NT35510_Write_Cmd (CMD_SetCoordinateY + 3);
+	NT35510_Write_Data (usY2 & 0xff);
+
+  NT35510_Write_Cmd (CMD_SetPixel);	
+		
+	for (i = 0; i < (usX2 - usX1 + 1) * (usY2 - usY1 + 1); i ++)
+		NT35510_Write_Data (color);
+}
 

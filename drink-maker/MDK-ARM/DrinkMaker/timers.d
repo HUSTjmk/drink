@@ -1,0 +1,15 @@
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+drinkmaker\timers.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+drinkmaker\timers.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\timers.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\timers.o: ../Core/Inc/FreeRTOSConfig.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+drinkmaker\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h

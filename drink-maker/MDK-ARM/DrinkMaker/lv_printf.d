@@ -1,0 +1,10 @@
+drinkmaker\lv_printf.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_printf.c
+drinkmaker\lv_printf.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_printf.h
+drinkmaker\lv_printf.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_internal.h
+drinkmaker\lv_printf.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\lv_printf.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_kconfig.h
+drinkmaker\lv_printf.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+drinkmaker\lv_printf.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+drinkmaker\lv_printf.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\lv_printf.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_types.h
+drinkmaker\lv_printf.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

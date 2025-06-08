@@ -1,0 +1,13 @@
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_lru.c
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_lru.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_internal.h
+drinkmaker\lv_lru.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_kconfig.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_types.h
+drinkmaker\lv_lru.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_math.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_mem.h
+drinkmaker\lv_lru.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_assert.h
+drinkmaker\lv_lru.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_log.h

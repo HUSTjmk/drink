@@ -93,7 +93,7 @@ typedef enum{
 
 
 /********************************** 声明 ILI934 函数 ***************************************/
-void                     NT35510_Init                    (void);
+void                     LCD_Init                        (void);
 void                     NT35510_Rst                     (void);
 void                     NT35510_BackLed_Control         (LCD_BackLed_Cmd cmd);
 void                     NT35510_GramScan                (LCD_Scan_Mode ucOption);
@@ -123,6 +123,9 @@ void                     NT35510_DrawCircle              (uint16_t usX_Center, u
 /* 直接操作寄存器的方法控制IO */
 #define	digitalH(p,i)			{p->BSRR=i;}			  //设置为高电平		
 #define digitalL(p,i)			{p->BSRR=(uint32_t)i << 16;}				//输出低电平
+
+
+void LCD_Color_Fill(uint16_t usX1, uint16_t usY1, uint16_t usX2, uint16_t usY2, uint16_t color);
 
 #endif /* __BSP_NT35510_NT35510_H */
 

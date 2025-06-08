@@ -1,0 +1,13 @@
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_async.c
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_async.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_types.h
+drinkmaker\lv_async.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_mem.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_internal.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_kconfig.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+drinkmaker\lv_async.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\lv_async.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\lv_timer.h
+drinkmaker\lv_async.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\misc\../hal/lv_hal_tick.h
+drinkmaker\lv_async.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

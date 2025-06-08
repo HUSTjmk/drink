@@ -1,0 +1,12 @@
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+drinkmaker\list.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+drinkmaker\list.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\list.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\list.o: ../Core/Inc/FreeRTOSConfig.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+drinkmaker\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
