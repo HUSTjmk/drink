@@ -283,3 +283,4 @@ VP_FREERTOS_VS_CMSIS_V2.Signal=FREERTOS_VS_CMSIS_V2
 VP_SYS_VS_tim7.Mode=TIM7
 VP_SYS_VS_tim7.Signal=SYS_VS_tim7
 board=custom
+rtos.0.ip=FREERTOS

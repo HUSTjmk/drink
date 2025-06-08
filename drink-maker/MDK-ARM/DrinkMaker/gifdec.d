@@ -1,0 +1,16 @@
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\gifdec.c
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\gifdec.h
+drinkmaker\gifdec.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_fs.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_internal.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_kconfig.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+drinkmaker\gifdec.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_log.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_types.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_mem.h
+drinkmaker\gifdec.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\gifdec.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_color.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_assert.h
+drinkmaker\gifdec.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\gif\../../../misc/lv_math.h

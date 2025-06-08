@@ -1,0 +1,9 @@
+drinkmaker\qrcodegen.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\qrcodegen.c
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+drinkmaker\qrcodegen.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\qrcodegen.h
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\qrcodegen.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

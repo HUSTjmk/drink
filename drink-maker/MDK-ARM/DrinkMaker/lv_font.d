@@ -1,0 +1,16 @@
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\lv_font.c
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\lv_font.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../lv_conf_internal.h
+drinkmaker\lv_font.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../lv_conf_kconfig.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+drinkmaker\lv_font.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+drinkmaker\lv_font.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\lv_symbol_def.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../misc/lv_area.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../misc/lv_utils.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../misc/lv_log.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../misc/lv_types.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../misc/lv_assert.h
+drinkmaker\lv_font.o: ..\Middlewares\LVGL\LVGL_SRC\lvgl\src\font\../misc/lv_mem.h
+drinkmaker\lv_font.o: D:\Keil5\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
